@@ -11,6 +11,9 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 alias pls="sudo"
 
+# Git - see .gitconfig
+alias g="git"
+
 # Shortcuts
 alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
