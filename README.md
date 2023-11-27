@@ -7,12 +7,17 @@ Forked from [mathias's](https://github.com/mathiasbynens/dotfiles.git).
 - config
   - alias
   - git
+  - zsh
 - installs
-  - neovim
-  - tmux
-  - zsh (+ oh-my-zsh)
+  - [lazygit](https://github.com/jesseduffield/lazygit/tree/master)
+  - [neovim](https://neovim.io/)
+  - [tmux](https://github.com/tmux/tmux/wiki)
+  - [zsh](https://www.zsh.org/) (+ [oh-my-zsh](https://ohmyz.sh/))
 - themes
-  - Nord
+  - everforest
+  - gruvbox
+  - nord
+  - (tmux) [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 
 ### Keyboard shortcuts
 
@@ -20,7 +25,6 @@ Forked from [mathias's](https://github.com/mathiasbynens/dotfiles.git).
 - oh-my-zsh plugins
   - docker
   - docker-compose
-  - [git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git)
   - [git-commit](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git-commit)
   - [tmux](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux)
 

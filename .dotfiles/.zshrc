@@ -9,7 +9,6 @@ plugins=(
   docker
   docker-compose
   heroku
-  git
   git-commit
   zsh-256color
   zsh-autosuggestions
