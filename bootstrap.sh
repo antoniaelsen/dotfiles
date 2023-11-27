@@ -1,18 +1,31 @@
 #!/usr/bin/env bash
 
-cd "$(dirname "${BASH_SOURCE}")";
 
-git pull origin main;
 
 function doIt() {
-	rsync --exclude ".git/" \
-		--exclude ".DS_Store" \
-		--exclude ".osx" \
-		--exclude "bootstrap.sh" \
-		--exclude "README.md" \
-		--exclude "LICENSE-MIT.txt" \
-		-avh --no-perms . ~;
-	source ~/.bash_profile;
+	echo -e "Installing dotfiles..."
+
+	echo -e "Updating submodules...";
+	git submodule update --init
+
+	echo -e "Copying files...";
+	rsync -ah --no-perms .dotfiles/ ~;
+
+	for f in install/*; do
+		echo -e "Running \"$f\"...";
+		source "$f";
+	done
+	
+	echo -e "Done.";
+
+	# get current shelll
+	SHELL=$(echo $SHELL | awk -F/ '{print $NF}');
+
+	# change shell to zsh if not already
+	if [ "$SHELL" != "zsh" ]; then
+		echo -e "Changing shell to zsh...";
+		chsh -s $(which zsh);
+	fi;
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
