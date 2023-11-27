@@ -37,6 +37,7 @@ brew install vim --with-override-system-vi  # TODO(antoniae)
 brew install grep
 brew install gpg
 brew install openssh
+brew install ripgrep
 brew install screen
 
 brew install git
