@@ -10,7 +10,7 @@ Forked from [mathias's](https://github.com/mathiasbynens/dotfiles.git).
   - zsh
 - installs
   - [lazygit](https://github.com/jesseduffield/lazygit/tree/master)
-  - [neovim](https://neovim.io/)
+  - [neovim](https://neovim.io/) (+ [lazyvim](https://www.lazyvim.org/))
   - [tmux](https://github.com/tmux/tmux/wiki)
   - [zsh](https://www.zsh.org/) (+ [oh-my-zsh](https://ohmyz.sh/))
 - themes
@@ -37,8 +37,7 @@ MacOSX
 
 ## TODO
 
-- [ ] Neovim
-- [ ] Warp
+- [ ] replace oh-my-tmux with plain powerline?
 - [ ] linux / ubuntu install script
 
 ## Links
