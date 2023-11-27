@@ -16,10 +16,9 @@ alias g="git"
 alias lg="lazygit"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
-alias dl="cd ~/Downloads"
-alias ds="cd ~/Desktop"
-alias p="cd ~/projects"
+alias cdl="cd ~/Downloads"
+alias cds="cd ~/Desktop"
+alias cdp="cd ~/projects"
 
 # See README for more details
 
