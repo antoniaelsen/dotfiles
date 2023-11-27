@@ -41,6 +41,7 @@ brew install screen
 
 brew install git
 brew install git-lfs
+brew install lazygit
 brew install lua
 brew install neovim
 brew install tmux

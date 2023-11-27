@@ -10,6 +10,7 @@ function doIt() {
 
 	echo -e "Copying files...";
 	rsync -ah --no-perms .dotfiles/ ~;
+	ln -fs "$PWD/nvim" ~/.config
 
 	for f in install/*; do
 		echo -e "Running \"$f\"...";
