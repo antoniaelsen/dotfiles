@@ -1,5 +1,7 @@
 # cheatsheet
 
+## aliases
+
 - git (`g`)
   - `a` - add
   - `aa` - add --all
@@ -18,3 +20,8 @@
   - `psu` - push to new origin
   - `r` - rebase
   - `s` - status
+
+## neovim
+
+ -
+
