@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-
-
 function doIt() {
 	echo -e "Installing dotfiles..."
 
@@ -19,7 +17,7 @@ function doIt() {
 	
 	echo -e "Done.";
 
-	# get current shelll
+	# get current shell
 	SHELL=$(echo $SHELL | awk -F/ '{print $NF}');
 
 	# change shell to zsh if not already
